@@ -2,7 +2,7 @@
 
 ##1. Introduction
 
-With Electron you can build a desktop app. Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. It takes care of the hard parts so you can focus on the core of your application. 
+By using Electron you can build a desktop app. Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. It takes care of the hard parts so you can focus on the core of your application. 
 
 - Electron uses **Chromium** and **Node.js** so you can build your app with HTML, CSS, and JavaScript.
 - Electron is an **open source** project maintained by **GitHub** and an active community of contributors.
@@ -10,7 +10,7 @@ With Electron you can build a desktop app. Electron is a framework for creating 
 
 ##2. Quick Start
 
-For a quick-start you can follow this basic steps. This is extracted from its offical Website http://electron.atom.io/
+For a quick-start you can follow these basic steps. This is extracted from its offical Website http://electron.atom.io/
 
 1.Clone the Quick Start repository
 	
