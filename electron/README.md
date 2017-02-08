@@ -26,7 +26,7 @@ For a quick-start you can follow these basic steps. This is extracted from its o
 
 ##2. Create NodeJs Project
 	
-In order to create a new project from Scatch:
+In order to create a new project from Scratch:
 	
 1. Creates json Package
 
