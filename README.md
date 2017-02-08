@@ -13,15 +13,17 @@
 ******************************************
 	
 #1. Installation
-##1.1 Download and Install Node.js from its web site (http://nodejs.org/download/).
-##1.2 For automatic installation follow the steps described in the wizard setup.
-##1.3 For manual installation (No Admin or cleaner installation)
+
+Download and Install Node.js from its web site (http://nodejs.org/download/).
+
+###1. For automatic installation follow the steps described in the wizard setup.
+###2 For manual installation (No Admin or cleaner installation)
 1. Extract the content of the msi installer using "lessmsi".
 2. Open the environment variable window by using "rundll32 sysdm.cpl,EditEnvironmentVariables"
 3. Add to local paths the folder where the content has been extracted. (Be sure the folder contains node.exe and npm.cmd files) 
-##1.4 Test Installation
+###3 Test Installation
 
-###1.4.1 Create a folder and a new file (sample.js) with the following content.
+####3.1 Create a folder and a new file (sample.js) with the following content.
 	
 	(sample.js)
 
@@ -45,7 +47,7 @@
 		console.log("Server listening on httplocalhost%s", PORT);
 	});
 	
-###1.4.2 Run the server using the following line in the command prompt windows.
+####3.2 Run the server using the following line in the command prompt windows.
 		
 	// Run following program.
 	node sample.js 
@@ -53,7 +55,7 @@
 	// To Test the server open a Web browser and usr the URL (If a firewall windows pop-up just ignore it)
 	http:\\localhost:8080
 
-###1.4.3 Packages Installation and Updates 
+####3.3 Packages Installation and Updates 
 	
 	//npm it's the Package Manager tool (installaer, updater) used by node.js, like pip in python.
 	npm install -g express // Global installation of expres using -g command
@@ -101,8 +103,8 @@
 
 ##2.4 Troubleshooting
 
-###2.4.1  Mean.io dependencies uses node-gyp with supported Python version 2.7.x. So if you see an error related to node-gyp 
-###2.4.1. Git “not found” on Windows
+1. Mean.io dependencies uses node-gyp with supported Python version 2.7.x. So if you see an error related to node-gyp 
+2. Git “not found” on Windows
 
 ##2.5 Additional Dependences
 
