@@ -16,9 +16,11 @@
 
 Download and Install Node.js from its web site (http://nodejs.org/download/).
 
-###1. For automatic installation follow the steps described in the wizard setup.
+###1. Automatic installation
 
-###2. For manual installation (No Admin or cleaner installation)
+Follow the steps described in the wizard setup installation procedure.
+
+###2. Manual installation (No Admin or cleaner installation)
 
 1. Extract the content of the msi installer using **"lessmsi"**.
 2. Open the environment variable window by using **"rundll32 sysdm.cpl,EditEnvironmentVariables"**
