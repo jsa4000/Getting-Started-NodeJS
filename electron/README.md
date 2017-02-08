@@ -12,28 +12,28 @@ By using Electron you can build a desktop app. Electron is a framework for creat
 
 For a quick-start you can follow these basic steps. This is extracted from its offical Website http://electron.atom.io/
 
-1.Clone the Quick Start repository
+1. Clone the Quick Start repository
 	
-	git clone https://github.com/electron/electron-quick-start
+ 	git clone https://github.com/electron/electron-quick-start
 
 2. Go into the repository
 	
-	cd electron-quick-start
+ 	cd electron-quick-start
 
 3. Install the dependencies and run
 	
-	npm install && npm start
+ 	npm install && npm start
 
 ##2. Create NodeJs Project
 	
 In order to create a new project from Scatch:
 	
-1.Creates json Package
+1. Creates json Package
 
-	npm init
+ 	npm init
 
 2. Install Electron dependences.
 
-	npm install electron --save   // Remove --save for temporary dependences (not global)
+ 	npm install electron --save   // Remove --save for temporary dependences (not global)
 
 
