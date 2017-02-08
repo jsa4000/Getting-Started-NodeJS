@@ -4,9 +4,11 @@
 > Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in Web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games).
 
 *************************************	
+
  **npm**: is used to update/install/uninstall packages and to run the server by default.
  **node**: compiles the java-scripts files and run the server.
- **nodemon**: this tool is used to re-start the server when the code has been modified.			
+ **nodemon**: this tool is used to re-start the server when the code has been modified.		
+ 
 ******************************************
 	
 #1. Installation
