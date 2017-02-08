@@ -1,8 +1,8 @@
 # Node.js
 
-> Node.js is an open-source, cross-platform JavaScript runtime environment for developing a diverse variety of server tools and applications. Although Node.js is not a JavaScript framework,[4] many of its basic modules are written in JavaScript, and developers can write new modules in JavaScript. The runtime environment interprets JavaScript using Google's V8 JavaScript engine.
+> Node.js is an open-source, cross-platform JavaScript runtime environment for developing a diverse variety of server tools and applications. Although Node.js is not a JavaScript framework, **many** of its basic modules are written in **JavaScript**, and developers can write new modules in JavaScript. The runtime environment interprets JavaScript using Google's V8 JavaScript engine.
 
-> Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in Web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games).
+> Node.js has an event-driven architecture capable of **asynchronous I/O**. These design choices aim to optimize throughput and scalability in Web applications with many **input/output operations**, as well as for **real-time Web applications** (e.g., real-time communication programs and browser games).
 
 *************************************	
 
@@ -19,8 +19,9 @@ Download and Install Node.js from its web site (http://nodejs.org/download/).
 ###1. For automatic installation follow the steps described in the wizard setup.
 
 ###2. For manual installation (No Admin or cleaner installation)
-1. Extract the content of the msi installer using "lessmsi".
-2. Open the environment variable window by using "rundll32 sysdm.cpl,EditEnvironmentVariables"
+
+1. Extract the content of the msi installer using **"lessmsi"**.
+2. Open the environment variable window by using **"rundll32 sysdm.cpl,EditEnvironmentVariables"**
 3. Add to local paths the folder where the content has been extracted. (Be sure the folder contains node.exe and npm.cmd files) 
 
 ###3. Test Installation
@@ -110,8 +111,8 @@ Download and Install Node.js from its web site (http://nodejs.org/download/).
 
 ##2.5 Additional Dependences
 
-- Mongoose: The mongodb node.js driver in charge of providing elegant mongodb object modeling for node.js
-- Passport: An authentication middleware for Node.js which supports authentication using a username and password, Facebook, Twitter, and more.
-- Twitter Bootstrap: The most popular HTML, CSS, and JS framework for developing responsive, mobile first projects.
-- UI Bootstrap: Bootstrap components written in pure AngularJS
+- **Mongoose** The mongodb node.js driver in charge of providing elegant mongodb object modeling for node.js
+- **Passport** An authentication middleware for Node.js which supports authentication using a username and password, Facebook, Twitter, and more.
+- **Twitter Bootstrap** The most popular HTML, CSS, and JS framework for developing responsive, mobile first projects.
+- **UI Bootstrap** Bootstrap components written in pure AngularJS
 
