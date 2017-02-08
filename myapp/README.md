@@ -43,7 +43,7 @@ Some useful link: https://blog.risingstack.com/your-first-node-js-http-server/
 	
 ##3 Interacting with Python
 
-There exists several ways to execute code from Python inside NodeJS. 
+There are several ways to execute code from Python inside NodeJS. 
 
 ###3.1 Command line like Nodejs-Shell
 	
