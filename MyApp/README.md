@@ -16,7 +16,11 @@ In order to configure the environment variable _PATH_ onto Microsft Windows, you
 
 *************************
 
-##2. First Program
+##2. Examples
+
+###2.1 HTTP Server
+
+Create the project using node and npm to initialize it. Also, in this Step all the dependences will be installed and included to package.json
 
 	// Run following program.
 	node sample.js 
@@ -33,10 +37,49 @@ In order to configure the environment variable _PATH_ onto Microsft Windows, you
 	npm install httpdispatcher --save 
 	npm install electron --save 
 
+Also, you need to include this code into your entry point file you configured.
+
+	//Lets requireimport the HTTP module
+	var http = require('http');
+
+	//Lets define a port we want to listen to
+	const PORT=8080; 
+
+	//We need a function which handles requests and send response
+	function handleRequest(request, response){
+	    response.end('It Works!! Path Hit ' + request.url);
+	}
+
+	//Create a server
+	var server = http.createServer(handleRequest);
+
+	//Lets start our server
+	server.listen(PORT, function(){
+	    //Callback triggered when server is successfully listening. Hurray!
+	    console.log("Server listening on httplocalhost%s", PORT);
+	});
 
 Some useful link: https://blog.risingstack.com/your-first-node-js-http-server/
-		
-##2 Flow Charts
+
+
+###2.2 Socket Server
+
+For this particular example you have to install express dependency only.
+Also you will need to modify our entry point with the following code.
+
+	var express = require('express');
+	var app = express();
+
+	app.get('/', function (req, res) {
+	  res.send('Hello World!');
+	});
+
+	app.listen(3000, function () {
+	  console.log('Example app listening on port 3000!');
+	});
+
+
+###2.3 Flow Charts
 
 	http://www.codeproject.com/Articles/709340/Implementing-a-Flowchart-with-SVG-and-AngularJS
 	GoJS Samples
