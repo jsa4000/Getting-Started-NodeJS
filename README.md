@@ -16,9 +16,9 @@
 ##1.1 Download and Install Node.js from its web site (http://nodejs.org/download/).
 ##1.2 For automatic installation follow the steps described in the wizard setup.
 ##1.3 For manual installation (No Admin or cleaner installation)
-###1.3.1. Extract the content of the msi installer using "lessmsi".
-###1.3.2. Open the environment variable window by using "rundll32 sysdm.cpl,EditEnvironmentVariables"
-Add to local paths the folder where the content has been extracted. (Be sure the folder contains node.exe and npm.cmd files) 
+1. Extract the content of the msi installer using "lessmsi".
+2. Open the environment variable window by using "rundll32 sysdm.cpl,EditEnvironmentVariables"
+3. Add to local paths the folder where the content has been extracted. (Be sure the folder contains node.exe and npm.cmd files) 
 ##1.4 Test Installation
 
 ###1.4.1 Create a folder and a new file (sample.js) with the following content.
