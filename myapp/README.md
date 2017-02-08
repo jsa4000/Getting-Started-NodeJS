@@ -11,7 +11,7 @@ You can download all the packages from the following URL. https://nodejs.org/en/
 
 ***********************
 
-In order to configure the environment PATH vatiable in Ms Windows, youe need to configure the absolue path where nodejs has been installed.
+In order to configure the environment variable _PATH_ onto Microsft Windows, you will need to add the absolue path where nodejs has been installed.
 >	rundll32 sysdm.cpl,EditEnvironmentVariables
 
 *************************
@@ -34,7 +34,7 @@ In order to configure the environment PATH vatiable in Ms Windows, youe need to 
 	npm install electron --save 
 
 
-Some useful pages: https://blog.risingstack.com/your-first-node-js-http-server/
+Some useful link: https://blog.risingstack.com/your-first-node-js-http-server/
 		
 ##2 Flow Charts
 
