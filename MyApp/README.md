@@ -37,7 +37,7 @@ Create the project using node and npm to initialize it. Also, in this Step all t
 	npm install httpdispatcher --save 
 	npm install electron --save 
 
-Also, you need to include this code into your entry point file you configured.
+Include this code into your configured entry point .
 
 	//Lets requireimport the HTTP module
 	var http = require('http');
@@ -61,11 +61,10 @@ Also, you need to include this code into your entry point file you configured.
 
 Some useful link: https://blog.risingstack.com/your-first-node-js-http-server/
 
-
 ###2.2 Socket Server
 
-For this particular example you have to install express dependency only.
-Also you will need to modify our entry point with the following code.
+For this particular example **express** dependency will be only needed.
+Also, you have to include the your server code into your entry point.
 
 	var express = require('express');
 	var app = express();
@@ -77,7 +76,6 @@ Also you will need to modify our entry point with the following code.
 	app.listen(3000, function () {
 	  console.log('Example app listening on port 3000!');
 	});
-
 
 ###2.3 Flow Charts
 
