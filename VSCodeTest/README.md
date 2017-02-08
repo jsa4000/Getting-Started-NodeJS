@@ -5,7 +5,7 @@ The main idea was:
 > The user can interact from the Browser (AngularJs) with some tools or controls. The actions and operations will be remotely call to Web services (RESTFul), implemented using NodeJs. Inside the NodeJs implementation, this will call to Pyhon scripts code, to apply certain operations. 
 > Finally those Outputs (from text files, images generated or Database) could be access from NodeJS Server, so thay can be used for the callbacks.
 
-For setting up this Project I used **Visual Studio Code**.
+For setting up this project I used **Visual Studio Code**. Following are some of the basic features:
 
 - Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux and macOS. 
 - It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. 
