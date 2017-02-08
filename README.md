@@ -67,7 +67,7 @@ Follow the steps described in the wizard setup installation procedure.
 	npm install express --save // Save the dependences temporary into the current folder (app)
 	npm update express
 					
-	// Example -> In order to install and create an Express application. 
+Following an example to install and create an Express application. 
 	
 	//Create and initialize "package.json"// follow the steps in the wizard to create this file.
 	npm init
