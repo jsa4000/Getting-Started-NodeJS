@@ -69,10 +69,11 @@ Follow the steps described in the wizard setup installation procedure.
 					
 Following an example to install and create an Express application. 
 	
-	//Create and initialize "package.json"// follow the steps in the wizard to create this file.
+	//Create and initialize "package.json"
+	//Follow the steps in the wizard to create this file.
+	//    Important: Set the entry point: (index.js) // index.js o app.js et..
 	npm init
 
-	// When entry point: (index.js) // index.js o app.js et.. 
 	// Install Express dependences.
 	npm install express --save   // Remove Save for temporary dependences
 
