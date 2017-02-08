@@ -1,4 +1,4 @@
-This is a **discontinued** Project developed to interact between some different technologies such as **NodeJS**, **AngularJs** and **Python**.
+This is a **discontinued** Project that was initially developed to interact between some different technologies such as **NodeJS**, **AngularJs** and **Python**.
 
 The main idea was:
 
