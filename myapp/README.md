@@ -2,11 +2,12 @@
 
 ##1. Installation
 
-First at all, you need to install NodeJS.
+The first step will be to install NodeJS.
  
-> In order to complete the installation, you will need to install both nodejs and npm pacakges. Only for the cases where you are doing the installation manually or self-extracting the contents of the installer into a folder.
+> In order to complete the installation, you will need to install both nodejs and npm pacakges. 
+> The installation also can be done manually or self-extracting the contents of the installer into a folder.
 
-You can download all the packages  fromn the following URL. https://nodejs.org/en/
+You can download all the packages from the following URL. https://nodejs.org/en/
 
 ***********************
 
@@ -34,8 +35,7 @@ In order to configure the environment PATH vatiable in Ms Windows, youe need to 
 
 
 Some useful pages: https://blog.risingstack.com/your-first-node-js-http-server/
-	
-	
+		
 ##2 Flow Charts
 
 	http://www.codeproject.com/Articles/709340/Implementing-a-Flowchart-with-SVG-and-AngularJS
