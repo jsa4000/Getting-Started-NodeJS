@@ -6,7 +6,9 @@
 *************************************	
 
  **npm**: is used to update/install/uninstall packages and to run the server by default.
+ 
  **node**: compiles the java-scripts files and run the server.
+ 
  **nodemon**: this tool is used to re-start the server when the code has been modified.		
  
 ******************************************
