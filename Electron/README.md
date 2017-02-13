@@ -20,11 +20,11 @@ For a quick-start you can follow these basic steps. This is extracted from its o
 
 2. Go into the repository
 	
- 		cd electron-quick-start
+		cd electron-quick-start
 
 3. Install the dependencies and run
 	
- 		npm install && npm start
+		npm install && npm start
 
 ###2.2 Create NodeJs Project
 	
@@ -47,13 +47,16 @@ In order to create a new project from Scratch:
 - Be sure Nodejs is installed correctly and the variable path is set properly in environment path for the OS
 
 	//Installing Nodejs
-	Install Nodejs (nodejs and npm)
+	
+		Install Nodejs (nodejs and npm)
 
 	// in order to configure the path where nodejs has been installed.
-	rundll32 sysdm.cpl,EditEnvironmentVariables
+	
+		rundll32 sysdm.cpl,EditEnvironmentVariables
 
 	// Run following program.
-	node sample.js 
+	
+		node sample.js 
 
 ###3.2 Create Electron default packages by using "npm init" inside the following folders
 	
